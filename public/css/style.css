@@ -1,0 +1,309 @@
+body{
+  background: #53507E;
+}
+header{
+  height: 37px;
+  width: 1100px;
+  margin: 30px auto 115px;
+}
+.header-right{
+  float: right;
+}
+#logo{
+  height: 37px;
+  transition: all 0.5s linear;
+}
+#logo.glow{
+  box-shadow: 0 0 100px rgba(255, 255, 255, 0.75);
+}
+.header-left{
+  float: left;
+}
+header nav li{
+  display: inline-block;
+}
+header nav li a{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  color: #B1AEDE;
+  margin-left: 35px;
+  margin-top: 12px;
+}
+header nav li a:hover{
+  color: white;
+}
+header nav li a:active{
+  color: white;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #FF8ED8;
+}
+#rightArea h1{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 52px;
+  color: white;
+  line-height: 56px;
+  margin-bottom: 35px;
+}
+#rightArea p{
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #B1AEDE;
+  margin-bottom: 120px;
+}
+#kool{
+  height: 80px;
+  padding: 30 45;
+  border-radius: 40px;
+  box-shadow: 0 0 30px rgba(255, 142, 216, 0.75);
+  background-color: #FF8ED8;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+  outline: none;
+}
+#kool:hover{
+  box-shadow: 0 0 30px rgba(64, 61, 101, 0.75);
+  color: #403D65;
+}
+#about-us{
+  width: 750px;
+  padding: 80px;
+  margin-top: 0;
+  margin: auto;
+  margin-bottom: 90px;
+  background-color: white;
+  box-shadow: 0 0 100px rgba(255, 255, 255, 0.75);
+  transition: all .5s linear;
+}
+#about-us.glow{
+  box-shadow: 0 0 200px rgba(255, 255, 255, 0.75);
+}
+#about-us h3{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #FF8ED8;
+  margin-bottom: 35px;
+}
+#about-us p{
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5C5C5C;
+  max-width: 480px;
+}
+#jebediah{
+  width: 750px;
+  padding: 80px 80px 80px 180px;
+  margin-top: 0;
+  margin: auto;
+  margin-bottom: 90px;
+  background-color: white;
+  box-shadow: 0 0 100px rgba(255, 255, 255, 0.75);
+  position: relative;
+}
+#jeb{
+  width: 208px;
+  position: absolute;
+  top: -40px;
+  left: -70px;
+  border: 20px solid white;
+  border-radius: 50%;
+}
+#name{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #5C5C5C;
+}
+#title{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #FF8ED8;
+}
+#jebediah p{
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5C5C5C;
+  max-width: 480px;
+}
+#jezebelle{
+  width: 750px;
+  padding: 80px 180px 80px 80px;
+  margin-top: 0;
+  margin: auto;
+  margin-bottom: 90px;
+  background-color: white;
+  box-shadow: 0 0 100px rgba(255, 255, 255, 0.75);
+  position: relative;
+}
+#jez{
+  width: 208px;
+  position: absolute;
+  top: -40px;
+  right: -70px;
+  border: 20px solid white;
+  border-radius: 50%;
+}
+#jezebelle h6{
+  text-align: right;
+}
+#jezebelle p{
+  text-align: right;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5C5C5C;
+  max-width: 480px;
+}
+#intro{
+  width: 750px;
+  padding: 80px;
+  margin-top: 0;
+  margin: auto;
+  margin-bottom: 90px;
+  background-color: white;
+  box-shadow: 0 0 100px rgba(255, 255, 255, 0.75);
+}
+#intro h3{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #FF8ED8;
+  margin-bottom: 35px;
+}
+#intro p{
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5C5C5C;
+  max-width: 480px;
+}
+#form{
+  width: 500px;
+  margin: 0 auto;
+}
+#form input{
+  outline: none;
+  border: none;
+  border-bottom: 2px solid white;
+  height: 35px;
+  background: none;
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  padding-left: 0;
+  margin: 20px 0 0 0;
+}
+#form input-placeholder{
+  color: #B1AEDE;
+}
+#email{
+  width: 100%;
+}
+#confirmemail{
+  width: 100%;
+}
+#firstname{
+  width: 45%;
+  float: left;
+}
+#lastname{
+  width: 45%;
+  float: right;
+}
+#contact-button{
+  text-align: center;
+  padding-top: 45px;
+}
+#afterlife{
+  height: 60px;
+  padding: 0 45px;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgba(255, 142, 216, 0.75);
+  background: #FF8ED8;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: white;
+  outline: none;
+}
+#afterlife:hover{
+  box-shadow: 0 0 30px rgba(64, 61, 101, 0.75);
+  color: #403D65;
+}
+footer{
+  margin-top: 100px;
+  height: 105px;
+  background-color: #403D65;
+  text-align: center;
+  width: auto;
+}
+footer nav li{
+  display: inline-block;
+}
+footer nav li a{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  color: #B1AEDE;
+  margin-right: 35px;
+  margin-top: 10px;
+}
+footer nav li a:hover{
+  color: white;
+}
+#foot{
+  width: 1100px;
+  height 34px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.legal{
+  height: 35px;
+  margin-top: 15px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #B1AEDE;
+  text-align: center;
+}
+.footer-left{
+  float: left;
+}
+.footer-right{
+  float: right;
+}
+#facebook{
+  width: 34px;
+  margin-left: 10px;
+}
+#facebook:hover{
+  opacity: .75;
+}
+#instagram{
+  width: 34px;
+  margin-left: 10px;
+}
+#instagram:hover{
+  opacity: .75;
+}
+#twitter{
+  width: 34px;
+  margin-left: 10px;
+}
+#twitter:hover{
+  opacity: .75;
+}

@@ -1,0 +1,22 @@
+<% include partials/header %>
+<div class="container">
+  <div id="intro">
+        <h3>HOLD OUT A LITTLE LONGER</h3>
+        <p>
+          Fill out the form below and we will send you an email
+          with a simple liability form for you to sign. After that, we
+          ship you your free can of Kool-Aid, satisfaction
+          guaranteed. We've never heard a bad word from our
+          wonderful customers, because they already moved on to
+          the afterlife!
+        </p>
+      </div>
+      <form name="myForm" onsubmit="return validateForm()" id="form">
+        <input type="text" name="firstname" id="firstname" placeholder="First Name">
+        <input type="text" name="lastname" id="lastname" placeholder="Last Name"><br>
+        <input type="text" name="email" id="email" placeholder="Email Address"><br>
+        <input type="text" name="confirmemail" id="confirmemail" placeholder="Confirm Email Address"><br><br>
+        <button type="submit" id="afterlife">BRING ON THE AFTERLIFE</button>
+      </form>
+</div>
+<% include partials/footer %>
