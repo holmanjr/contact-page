@@ -11,11 +11,12 @@
           the afterlife!
         </p>
       </div>
-      <form name="myForm" onsubmit="return validateForm()" id="form">
+      <form name="myForm" onsubmit="return validateForm()" id="form" action="/send" method="post">
         <input type="text" name="firstname" id="firstname" placeholder="First Name">
         <input type="text" name="lastname" id="lastname" placeholder="Last Name"><br>
         <input type="text" name="email" id="email" placeholder="Email Address"><br>
-        <input type="text" name="confirmemail" id="confirmemail" placeholder="Confirm Email Address"><br><br>
+        <input type="text" name="confirmemail" id="confirmemail" placeholder="Confirm Email Address"><br>
+        <textarea class="form-control" name="message" id="message" rows="8" cols="71" placeholder="Your message here(optional)"></textarea><br><br>
         <button type="submit" id="afterlife">BRING ON THE AFTERLIFE</button>
       </form>
 </div>

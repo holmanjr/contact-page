@@ -222,6 +222,18 @@ header nav li a:active{
   width: 45%;
   float: right;
 }
+#message{
+  margin: 20px 0 0 0;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+  background-color: #53507E;
+  color: white;
+  border: none;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
 #contact-button{
   text-align: center;
   padding-top: 45px;
